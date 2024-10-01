@@ -5,7 +5,7 @@ const HeroProductCard = ({ id, name, price, img }) => {
   return (
     <div className="relative w-[450px] h-[450px] bg-white rounded-3xl shadow-lg p-6 flex flex-col justify-center items-center">
       {/* "New lot" tag */}
-      <div className="absolute top-16 left-0 bg-[#6B6EC6] text-white px-3 py-1 rounded-r-lg text-xs font-semibold">
+      <div className="absolute top-16 left-0 bg-[#8A93E5] text-white px-3 py-2 rounded-r-lg text-xs font-light">
         New lot
       </div>
 
