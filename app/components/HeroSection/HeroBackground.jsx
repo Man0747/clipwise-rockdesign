@@ -5,7 +5,7 @@ const HeroBackground = () => {
   return (
     <div className="w-full h-full absolute overflow-hidden z-[1]">
       {/* Blur Overlay */}
-      <div className="bg-[rgba(255,255,255,0.40)] backdrop-blur-[125px] w-full h-full absolute z-[2]" />
+      <div className="backdrop-blur-[125px] w-full h-full absolute z-[2]" />
 
       {/* SVG Blobs */}
       <div className="relative w-full h-full z-0">
