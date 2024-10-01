@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import product from '/public/assets/product/product.png';
 import HeroBackground from '../HeroSection/HeroBackground';
-import wave from '/public/assets/hero/productwave.png';
+import wave from '/public/assets/hero/productWave.png';
 
 const FooterSection = () => {
   return (
