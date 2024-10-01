@@ -12,9 +12,9 @@ const FilterDropdown = ({ options, initial }) => {
   };
 
   return (
-    <div className="relative flex items-center gap-4 px-4 py-2 bg-white shadow-lg rounded-lg cursor-pointer">
+    <div className="relative flex items-center gap-2 px-4 py-2 rounded-lg cursor-pointer">
   <div>
-    <p className="text-[#31546D] text-[1.4rem] font-semibold">{activeText}</p>
+    <p className="text-[#31546D] text-[1.1rem] font-semibold">{activeText}</p>
   </div>
 
   <div onClick={() => setIsActive(!isActive)} className="cursor-pointer">

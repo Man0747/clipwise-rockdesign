@@ -28,11 +28,11 @@ const ProductsSection = () => {
       <div className="w-full flex flex-col px-[5%] gap-12 mt-4">
         <div className="w-full flex justify-end gap-12">
           <div className="flex items-center">
-            <span className="text-gray-500 font-semibold text-lg mr-2">Filter:</span>
+            <span className="text-gray-500 font-semibold text-lg ">Filter:</span>
             <FilterDropdown initial="All Products" options={FilterOptions} />
           </div>
           <div className="flex items-center">
-            <span className="text-gray-500 font-semibold text-lg mr-2">Filter:</span>
+            <span className="text-gray-500 font-semibold text-lg">Filter:</span>
             <FilterDropdown initial="All Products" options={FilterOptions} />
           </div>
         </div>
@@ -52,7 +52,7 @@ const ProductsSection = () => {
 
         {/* Footer Section */}
         <div className="mt-8 self-center">
-          <button className="px-10 py-4 text-[#6FB4FF] text-[1.2rem] font-bold rounded-full transition-all duration-300 ease-in-out bg-white border-2 border-[#6FB4FF] hover:bg-[#6FB4FF] hover:text-white shadow-md">
+          <button className="px-14 py-4 text-center text-[1.4rem] font-bold rounded-[18px] transition-all duration-500 ease-in-out bg-white text-[#6FB4FF] border-2 border-[#6FB4FF] hover:bg-gradient-to-r hover:from-[#75CCEB] hover:to-[#6FB4FF] hover:text-white hover:shadow-lg">
             View all
           </button>
         </div>

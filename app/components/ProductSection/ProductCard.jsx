@@ -13,7 +13,7 @@ const ProductCard = ({ id, name, price, img }) => {
         </h1>
       </div>
       <div>
-      <button className="px-10 py-4 text-[#6FB4FF] text-[1.2rem] font-bold rounded-full transition-all duration-300 ease-in-out bg-white border-2 border-[#6FB4FF] hover:bg-[#75CCEB] hover:text-white shadow-md">
+      <button className="px-6 py-4 text-center text-[1rem] font-bold rounded-[18px] transition-all duration-500 ease-in-out bg-white text-[#6FB4FF] border-2 border-[#6FB4FF] hover:bg-gradient-to-r hover:from-[#75CCEB] hover:to-[#6FB4FF] hover:text-white hover:shadow-lg">
           BUY NOW
         </button>
       </div>
