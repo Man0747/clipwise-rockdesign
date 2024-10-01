@@ -83,12 +83,14 @@ const HeroSlider = () => {
             >
                 {HeroSlides.map((el, _i) => (
                     <SwiperSlide className="flex justify-center rounded-[50px] w-max" key={_i}>
+                        <div className="flex justify-center items-center ">
                         <HeroProductCard 
                             id={el.id}
                             img={el.img}
                             name={el.name}
                             price={el.price}
                         />
+                        </div>
                     </SwiperSlide>
                 ))}
                 <div className="flex w-full h-max p-5 gap-[2.4rem] items-center justify-center">

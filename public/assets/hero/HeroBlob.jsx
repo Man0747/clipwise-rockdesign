@@ -57,9 +57,9 @@ export const HeroWave = () => {
     <svg
       id="heroWave"
       xmlns="http://www.w3.org/2000/svg"
-      width="1440"
+      width="1560"
       height="604"
-      viewBox="0 0 1440 604"
+      viewBox="0 0 1500 604"
       fill="none"
     >
       <path

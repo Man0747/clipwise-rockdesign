@@ -14,7 +14,7 @@ const FilterDropdown = ({ options, initial }) => {
   };
 
   return (
-    <div className="relative flex items-center gap-4 px-4">
+    <div className="relative flex items-center gap-4 px-2">
       {/* Current selected value */}
       <div className="py-2">
         <p className="text-[#31546D] text-[1.6rem] font-bold">{activeText}</p>

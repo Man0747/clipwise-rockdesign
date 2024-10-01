@@ -17,7 +17,7 @@ export const Products = [
 
 const ProductsSection = () => {
   return (
-    <section className="w-full min-h-screen py-20 flex flex-col items-center gap-12 bg-white">
+    <section className="w-full min-h-screen py-12 flex flex-col items-center gap-12 bg-white">
       <div className="w-11/12 xl:w-4/5">
         {/* Title Section */}
         <div className="flex flex-col items-center gap-6">
