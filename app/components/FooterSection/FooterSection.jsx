@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { HeroWave } from "@/public/assets/hero/HeroBlob";
 import product from '@/public/assets/product/product.png';
 import HeroBackground from '../HeroSection/HeroBackground';
-
+import wave from '@/public/assets/hero/Productwave.png';
 
 const FooterSection = () => {
   return (
@@ -12,10 +11,10 @@ const FooterSection = () => {
       <HeroBackground />
 
       {/* Content Container */}
-      <div className="relative flex justify-between items-center gap-10 w-full max-w-7xl px-4 md:px-8 z-10">
+      <div className="relative flex justify-between items-center gap-20 w-full px-4 md:px-20 z-20">
         
         {/* Info Section */}
-        <div className="flex flex-col items-end text-right gap-6 md:w-1/2">
+        <div className="flex flex-col items-end text-right gap-6 md:w-[600px]">
           <div className="text-gray-700">
             <span className="block text-2xl font-medium">BEST PRICE</span>
             <h1 className="text-5xl font-bold">Agate Phone Grip</h1>
@@ -41,16 +40,16 @@ const FooterSection = () => {
         </div>
 
         {/* Product Image */}
-        <div className="hidden md:flex items-center justify-center w-[372px] h-[372px] bg-white/30 rounded-full relative">
-          <div className="absolute inset-0 m-auto w-[284px] h-[284px] bg-white rounded-full shadow-md"></div>
-          <div className="absolute inset-0 m-auto w-[148px] h-[148px] bg-white rounded-full shadow-lg z-10"></div>
-          <Image src={product} alt="Product" className="relative w-[124px] h-[124px] z-20" />
+        <div className="hidden md:flex items-center justify-center w-[572px] h-[572px] bg-white/30 rounded-full relative">
+          <div className="absolute inset-0 m-auto w-[484px] h-[484px] bg-white rounded-full shadow-md"></div>
+          <div className="absolute inset-0 m-auto w-[348px] h-[348px] bg-white rounded-full shadow-lg z-10"></div>
+          <Image src={product} alt="Product" className="relative w-[324px] h-[324px] mr-4 mt-4 z-20" />
         </div>
       </div>
 
       {/* Wave Image */}
-      <div className="absolute inset-0 w-full h-full top-0 z-0 hidden md:block">
-        <HeroWave />
+      <div className="absolute w-full h-full  z-10">
+       <Image src={wave} alt="Wave" className="absolute w-full h-full " />
       </div>
     </section>
   );
