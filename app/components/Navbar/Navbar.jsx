@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { Logo } from '@/public/assets/navbar/logo';
-import { Basket } from '@/public/assets/navbar/basket';
+import { Logo } from '/public/assets/navbar/logo';
+import { Basket } from '/public/assets/navbar/basket';
 
 const Navs = [
   { id: 1, href: '/', name: 'Home' },

@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
 import HeroProductCard from "./HeroProductCard";
-import { SwipeArrow } from "@/public/assets/hero/SwipeArrow";
-import img from '@/public/assets/product/product.png';
+import { SwipeArrow } from "/public/assets/hero/SwipeArrow";
+import img from '/public/assets/product/product.png';
 
 // Slide data
 export const HeroSlides = [

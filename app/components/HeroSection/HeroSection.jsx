@@ -2,8 +2,8 @@ import React from "react";
 import HeroBackground from "./HeroBackground";
 import HeroInfo from "./HeroInfo";
 import HeroSlider from "./HeroSlider";
-import { Mouse } from "@/public/assets/hero/Mouse";
-import wave from "@/public/assets/hero/wave.png";
+import { Mouse } from "/public/assets/hero/Mouse";
+import wave from "/public/assets/hero/wave.png";
 import Image from "next/image";
 
 const HeroSection = () => {

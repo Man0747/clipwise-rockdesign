@@ -1,4 +1,4 @@
-import { HeroBlob, HeroBlobSecondary } from '@/public/assets/hero/HeroBlob';
+import { HeroBlob, HeroBlobSecondary } from '/public/assets/hero/HeroBlob';
 import React from 'react';
 
 const HeroBackground = () => {

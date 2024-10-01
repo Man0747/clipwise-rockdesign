@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductCard from './ProductCard';
-import img from '@/public/assets/product/product.png';
+import img from '/public/assets/product/product.png';
 import FilterDropdown from './FilterDropdown';
 
 export const FilterOptions = ["Most Liked", "New", "Another Filter"];

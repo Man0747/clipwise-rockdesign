@@ -1,5 +1,5 @@
 "use client";
-import { DropdownIcon } from '@/public/assets/product/DropdownIcon';
+import { DropdownIcon } from '/public/assets/product/DropdownIcon';
 import React, { useState } from 'react';
 
 const FilterDropdown = ({ options, initial }) => {
