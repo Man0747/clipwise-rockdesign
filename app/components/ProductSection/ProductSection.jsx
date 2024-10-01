@@ -5,14 +5,14 @@ import FilterDropdown from './FilterDropdown';
 
 export const FilterOptions = ["Most Liked", "New", "Another Filter"];
 export const Products = [
-  { id: 1, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 2, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 3, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 4, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 5, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 6, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 7, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
-  { id: 8, name: "Crystal Agate Phone Grip", price: "18.99$", img: img },
+  { id: 1, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 2, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 3, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 4, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 5, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 6, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 7, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
+  { id: 8, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", img: img },
 ];
 
 const ProductsSection = () => {
@@ -20,8 +20,7 @@ const ProductsSection = () => {
     <section className="w-full min-h-screen py-12 flex flex-col items-center gap-12 bg-white">
       {/* Title Section */}
       <div className="flex flex-col items-center gap-4">
-        <h2 className="text-4xl font-bold text-[#31546D] text-center">All Products</h2>
-        <hr className="w-20 h-1 bg-gray-300 border-none" />
+        <h2 className="text-4xl font-bold text-[#31546D] text-center">All product</h2>
       </div>
 
       {/* Filter Section */}
@@ -32,13 +31,13 @@ const ProductsSection = () => {
             <FilterDropdown initial="All Products" options={FilterOptions} />
           </div>
           <div className="flex items-center">
-            <span className="text-gray-500 font-semibold text-lg">Filter:</span>
-            <FilterDropdown initial="All Products" options={FilterOptions} />
+            <span className="text-gray-500 font-semibold text-lg">Sort:</span>
+            <FilterDropdown initial="Best Selling" options={FilterOptions} />
           </div>
         </div>
 
         {/* Product Items Section */}
-        <div className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-44 gap-y-10">
+        <div className="w-full max-w-[74rem] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-44 gap-y-10">
           {Products.map((product, index) => (
             <ProductCard
               key={index}
